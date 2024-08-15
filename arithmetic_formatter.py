@@ -35,7 +35,7 @@ def arithmetic_arranger(problems, show_answers = False):
         else:
             return ''
 
-    # Evalute problem solutions and formatting
+    # Evaluate problem solutions and formatting
     for i, problem in enumerate(problems):
         operation = problem.split()
         firstNum = int(operation[0])
